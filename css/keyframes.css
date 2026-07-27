@@ -1,0 +1,50 @@
+@keyframes animation-01 {
+    0%{
+        opacity: 1;
+        top: -25%;
+    }
+    50%{
+        opacity: 1;
+        top: 50%;
+    }
+    100%{
+        opacity: 0;
+        top: 50%;
+        
+    }
+}
+@keyframes animation-02 {
+    0%{ 
+        content: "D";
+    }
+    10%{
+        content: "De";
+    }
+    20%{
+        content: "Des";
+    }
+    30%{
+        content: "Desi";
+    }
+    40%{
+        content: "Desig";
+    }
+    50%{
+         content: "Design";
+    }
+    60%{
+         content: "Designe";
+    }
+    70%{
+        content: "Designer";
+    }
+    80%{
+        content: "Designer |";
+    }
+    90%{
+        content: "Designer |";
+    }
+    100%{
+        content: "Designer |";
+    }
+}

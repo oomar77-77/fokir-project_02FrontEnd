@@ -1,0 +1,353 @@
+/* 350 */
+@media (max-width: 1300px) {
+.title{
+    margin-top: 20px;
+}
+.title h2{
+    font-size: 25px;
+}
+header .content h4{
+    font-size: 20px;
+}   
+header .content h1{
+    font-size: 40px;
+}
+header .content p{
+    font-size: 16px;
+}
+nav .container .logo {
+  width: 20%;
+}
+nav .container .links .icon{
+    display: flex;
+}
+nav .container .links ul{
+    position: absolute;
+    width: 80%;
+    height: 0;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%,100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    padding-block:0px ;
+    row-gap:20px;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+nav .container .icon{
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .container .icon:focus+ul{
+    height: 255.2px;
+    padding-block: 20px;
+}
+nav .container .icon span{
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: var(--mainColor);
+}
+#About .container{
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+}
+#About .container [class^="part"]{
+    width: 100%;
+}
+#About .container .part1 {
+    margin-bottom: 50px ;
+}
+#About .container .part1 .frame{
+    width: 280px;
+    
+}
+#About .container .part2 .row .col{
+    flex-basis: 100%;
+}
+#About .container .part2 .buttons button{
+    font-size: 12px;
+}
+#Services .content .box{
+    width: 100%;
+}
+#Services .content .box:not(:last-child){
+    margin-bottom: 30px;
+}
+#Portofolio .content .box{
+    width: 100%;
+}
+#Blog .content .box{
+    width: 100%;
+
+}
+#Blog .content .box:not(:last-child){
+      margin-bottom: 30px;
+   
+}
+#Blog .content .box .item{
+    width: 280px;
+   
+}
+#Contact .content form{
+    width: 95%;
+}
+#Contact .content form .input:nth-of-type(1),
+#Contact .content form .input:nth-of-type(2){
+    width: 100%;
+    
+}
+#Contact .content form .input:nth-of-type(1) .item{
+    margin-right: 0;
+}
+#Contact .content form .input:nth-of-type(2) .item{
+    margin-left: 0;
+}
+#Contact .content form button{
+    width: 100%;
+}
+}
+
+/* 450 */
+@media (min-width: 371px) and (max-width: 1300px) {
+nav .container .logo{
+  width: 15%;
+}
+header .content h4{
+    font-size: 25px;
+}   
+header .content h1{
+    font-size: 50px;
+}
+header .content p{
+    font-size: 20px;
+}
+
+.title h2{
+    font-size: 30px;
+}
+#About .container .part2 .row .col{
+    flex-basis: 50%;
+}
+#About .container .part2 h4{
+    font-size: 12px;
+}
+#About .container .part2 .buttons button a{
+    font-size: 14px;
+}
+#Services .content .box .item{
+    width: 280px;
+    margin: auto;
+}
+#Portofolio .content .box{
+    width: 280px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#Contact .content form{
+    width: 85%;
+}
+}
+/* 650 */
+@media (min-width: 577px) and (max-width: 1300px) {
+.title h2{
+    font-size: 40px;
+}
+nav .container .logo {
+    width: 10%;
+}
+header .content h4{
+    font-size: 30px;
+}   
+header .content h1{
+    font-size: 60px;
+}
+header .content p{
+    font-size: 25px;
+}
+
+#About .container{
+    width: 95%;
+    margin: auto;
+}
+
+#About .container .part2 .row .col{
+    flex-basis: 50%;
+}
+#Services .content .box{
+    width: 50%;
+}
+#Services .content .box .item{
+    width: initial;
+    margin-inline:10px;
+}
+#Portofolio .content .box{
+    width: 50%;
+}
+#Blog .content .box{
+    width: 50%;
+}
+#Blog .content .box .item{
+    width: initial;
+    margin-inline: 10px;
+}
+#Blog .content .box .item .body h5{
+    font-size: 12px;
+}
+#Blog .content .box .item .body h3{
+    font-size: 15px;
+}
+#Contact .content form{
+    width: 60%;
+}
+}
+/* 850 */
+@media (min-width: 769px) and (max-width: 1300px) {
+nav .container .logo {
+    width: 8%;
+}
+header .content h4{
+    font-size: 40px;
+}   
+header .content h1{
+    font-size: 70px;
+}
+header .content p{
+    font-size: 30px;
+}
+
+#About .container{
+    width: 100%;
+    margin: 0;
+}
+#About .container [class^="part"]{
+    width: 50%;
+}
+#About .container .part2 .row .col .item  h4,
+#About .container .part2 .row .col .item  p{
+    font-size: 12px;
+}
+#Services .content .box .item{
+    width: initial;
+    margin-inline:50px;
+}
+#Services .content .box .item h4{
+    font-size: 16px;
+}
+#Portofolio .content .box{
+    width: 40%;
+}
+#Blog .content .box .item{
+    width: 280px;
+    margin: auto;
+}
+#Blog .content .box .item .body h5{
+    font-size: 15px;
+}
+#Blog .content .box .item .body h3{
+    font-size: 20px;
+}
+#Contact .content form .input:nth-of-type(1),
+#Contact .content form .input:nth-of-type(2){
+    width: 50%;
+}
+#Contact .content form .input:nth-of-type(1) .item{
+    margin-right: 5px;
+}
+#Contact .content form .input:nth-of-type(2) .item{
+    margin-left: 5px;
+}
+#Contact .content form{
+    width: 70%;
+}
+}
+/* 1050 */
+@media (min-width: 992px) and (max-width: 1300px) {
+
+nav .container .logo{
+    width: 6%;
+}
+nav .container .links .icon{
+    display: none;
+}
+nav .container .links ul{
+    background-color: transparent;
+    position:initial;
+    width: initial;
+    height: initial;
+    bottom: initial;
+    left: initial;
+    transform: translateX(-0%);
+    display: flex;
+    flex-direction: row;
+    text-align: initial;
+    border-radius: 0px;
+    row-gap: 0px;
+    transition-duration: 0s;
+    overflow: initial;
+    z-index: initial;
+}
+header .content h4{
+    font-size: 40px;
+}   
+header .content h1{
+    font-size: 75px;
+}
+header .content p{
+    font-size: 30px;
+}
+#About .container .part2 .row .col .item h4,
+#About .container .part2 .row .col .item p{
+    font-size: 14px;
+}
+#Services .content .box{
+    width: 25%;
+}
+#Services .content .box .item{
+   width: initial;
+   margin: 0;
+   margin-inline: 10px;
+}
+#Services .content .box .item h4{
+    font-size: 18px;
+}
+#Portofolio .content .box{
+    width: 32%;
+}
+#Blog .content .box {
+    max-width: 285px;
+    margin-inline: auto;
+}
+#Blog .content .box .item{
+    width: initial;
+    margin-inline: 10px;
+}
+#Blog .content .box .item .head{
+    height: 170px;
+}
+#Blog .content .box .item .body>*:not(:last-child){
+    margin-bottom: 15px;
+}
+#Contact .content form{
+    width: 55%;
+}
+}
+/* 1250 */
+@media (min-width: 1181px) and (max-width: 1300px) {
+#Blog .content .box .item{
+    width: initial;
+    margin-inline: 10px;
+}
+}
